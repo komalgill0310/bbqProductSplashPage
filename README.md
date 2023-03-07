@@ -1,2 +1,2 @@
-# bbqProductSplashPage
+# bbqProductSplashPage project
  
