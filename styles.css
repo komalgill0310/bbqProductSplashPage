@@ -2,8 +2,59 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: "Tilt Neon", cursive;
 }
 
 body {
-  background-color: antiquewhite;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.intro {
+  background-image: url(images/GrillBackGroundImage.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+.top-text {
+  order: 1;
+  color: orangered;
+  font-weight: bold;
+  border-top: 2px solid orangered;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+h1 {
+  order: 2;
+  color: white;
+}
+
+.bottom-text {
+  order: 3;
+  color: orangered;
+  font-weight: bold;
+  margin: 0 auto;
+  font-size: 1.06rem; /* 23px */
+  text-transform: uppercase;
+  margin-bottom: 1.35em; /* 17px */
+}
+
+.own-line {
+  display: block;
+  text-align: center;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.fine-print {
+  color: grey;
 }
