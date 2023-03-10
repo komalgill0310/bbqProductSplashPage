@@ -2,59 +2,152 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "Tilt Neon", cursive;
 }
 
 body {
-  min-height: 100vh;
   margin: 0;
-  padding: 0;
   text-align: center;
+  font-family: "Roboto Slab", serif;
+  min-height: 100vh;
 }
 
 .intro {
-  background-image: url(images/GrillBackGroundImage.avif);
+  background-image: url(images/cssCodeIntro1.avif);
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 50vh;
-  margin: 0 auto;
+  min-height: 275px;
 }
 
 .top-text {
   order: 1;
-  color: orangered;
+  color: green;
   font-weight: bold;
-  border-top: 2px solid orangered;
+  border-top: 3px solid green;
   margin: 0 auto;
-  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.44rem; /* 23px */
+  text-shadow: 0.5px 1px yellow;
+  letter-spacing: 1px;
 }
 
 h1 {
   order: 2;
   color: white;
+  font-weight: 100;
+  font-size: 1.56rem; /* 25px */
+  text-shadow: 3px 2px green;
 }
 
 .bottom-text {
   order: 3;
-  color: orangered;
-  font-weight: bold;
+  color: green;
   margin: 0 auto;
-  font-size: 1.06rem; /* 23px */
+  font-weight: 900;
   text-transform: uppercase;
-  margin-bottom: 1.35em; /* 17px */
-}
-
-.own-line {
-  display: block;
-  text-align: center;
-}
-
-.strong {
-  font-weight: bold;
+  margin-bottom: 1.06em; /* 17px */
 }
 
 .fine-print {
   color: grey;
+}
+
+.intro,
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+/* ===========================
+      main-content
+=========================== */
+
+.main-content {
+  margin-top: 1.44em; /* 23px */
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.subheading {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: olivedrab;
+  font-weight: 900;
+}
+
+.course-info {
+  line-height: 1.5;
+}
+
+/* ===================
+    form
+   =================== */
+
+input,
+button {
+  display: block;
+  text-align: center;
+  padding: 0.8125em;
+  width: 100%;
+  font-size: 17px; /* 13px*/
+  border-radius: 9px;
+  border-color: grey;
+  margin: 1em 0;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+  border: 5px solid green;
+}
+
+button {
+  color: white;
+  font-weight: 900;
+  font-family: inherit;
+  background: linear-gradient(90deg, green 10%, yellow 100%);
+  margin-bottom: 0;
+}
+
+/* ==============
+    media queries
+   ============== */
+
+@media (min-width: 576px) {
+  body {
+    display: flex;
+  }
+
+  .intro,
+  .main-content {
+    width: 50%;
+  }
+
+  .intro {
+    min-height: 100vh;
+    background-image: url(images/cssCodeIntro2.avif);
+  }
+
+  .main-content {
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 2.56rem; /* 41px */
+  }
+
+  .own-line {
+    display: block;
+  }
+
+  .main-content {
+    justify-content: center;
+  }
+
+  .course-info {
+    font-size: 1.187rem; /* 19px */
+  }
 }
