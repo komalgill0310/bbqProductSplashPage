@@ -59,7 +59,7 @@ h1 {
   padding-right: 1.5em;
 }
 
-/* ===========================
+/* ========================
       main-content
 =========================== */
 
@@ -78,7 +78,7 @@ h2 {
   font-weight: 900;
 }
 
-.course-info {
+.self-intro {
   line-height: 1.5;
 }
 
@@ -96,6 +96,7 @@ button {
   border-radius: 9px;
   border-color: grey;
   margin: 1em 0;
+  font-family: inherit;
 }
 
 input:focus,
@@ -107,7 +108,6 @@ button:focus {
 button {
   color: white;
   font-weight: 900;
-  font-family: inherit;
   background: linear-gradient(90deg, green 10%, yellow 100%);
   margin-bottom: 0;
 }
@@ -133,6 +133,7 @@ button {
 
   .main-content {
     margin: 0 auto;
+    justify-content: center;
   }
 
   h1 {
@@ -143,11 +144,7 @@ button {
     display: block;
   }
 
-  .main-content {
-    justify-content: center;
-  }
-
-  .course-info {
+  .self-intro {
     font-size: 1.187rem; /* 19px */
   }
 }
