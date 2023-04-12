@@ -1,2 +1,2 @@
-# bbqProductSplashPage project
+# first responsive CSS project
  
