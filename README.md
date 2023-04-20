@@ -2,9 +2,18 @@
 
 <font size = 6> This application is simply built using **_HTML and CSS_**</font>
 
-<font size=5> Working Version **_[here](https://salesboardwebapp03.netlify.app/)_**</font>
+<font size=5> Live Version **_[here](https://firstresponsivecssproject03.netlify.app/)_**</font>
+<br/><br/><br/>
 
-<img src = "images\Demo_salesboard-web-app.gif">
+# **Wider Screen Layout**
+
+<img src = "images\widerScreenLayout.png">
+<br/><br/><br/>
+
+# **Smaller Screen Layout**
+
+<img src = "images\smallerScreenLayout.png">
+<br/><br/><br/>
 
 # **Summary**
 
