@@ -3,13 +3,12 @@
 <font size = 6> This application is simply built using **_HTML and CSS_**</font>
 
 <font size=5> Live Version **_[here](https://firstresponsivecssproject03.netlify.app/)_**</font>
-<br/>
 
-# **Wider Screen Layout**
+# Wider Screen Layout
 
 <img src = "images\widerScreenLayout.png">
 
-# **Smaller Screen Layout**
+# Smaller Screen Layout
 
 <img src = "images\smallerScreenLayout.png">
 
