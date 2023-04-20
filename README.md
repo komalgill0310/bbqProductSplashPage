@@ -8,12 +8,10 @@
 # **Wider Screen Layout**
 
 <img src = "images\widerScreenLayout.png">
-<br/>
 
 # **Smaller Screen Layout**
 
 <img src = "images\smallerScreenLayout.png">
-<br/>
 
 # **Summary**
 
