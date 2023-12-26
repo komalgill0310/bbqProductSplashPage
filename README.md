@@ -20,4 +20,4 @@
 
 # Author
 
-<font size=5>Komal - | Software Developer | [First Responsive Project](https://firstresponsivecssproject03.netlify.app/) | [LinkedIn](https://www.linkedin.com/in/komalpreet-kaur-3b6924177/)
+Komal | Software Developer | [Portfolio](https://kaurkomal.com/) | [LinkedIn](https://www.linkedin.com/in/hssa03/)
